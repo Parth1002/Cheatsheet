@@ -1,0 +1,9 @@
+--> git config --global user.name "<USER NAME>"
+--> git config --global user.email "<USER EMAIL-ID>"
+--> git init
+--> touch .gitignore
+--> git add.
+--> git commit -m "<FRIST COMMIT>"
+--> git branch -m main
+--> git remote add origin <URL>
+--> git push -u origin main
