@@ -1,0 +1,65 @@
+Set USERNAME & Set Email
+--> git config --global user.name "Your Name Here"
+--> git config --global user.email "Your Email Here"
+
+Check USERNAME & Email
+--> git config --global user.name
+--> git config --global user.email
+
+.Git FOLDER CREATE
+--> git init
+
+Check STATUS
+--> git status
+
+CREATE FILE
+--> touch <File-NAME>
+
+Git ADD FILE
+--> git add -A
+--> git add "file-name"
+--> git add .
+
+Git Return File Last Commit
+--> git checkout -f
+
+Git Check commit
+--> git log
+--> git log -p -1
+
+Git DIFFRENT
+--> git diff
+
+REMOVE File Git
+--> git rm --cached <File-Name>
+
+All Status Check
+--> git status -s
+
+Git Commit message
+--> git commit -m "Type message of your choice here"
+--> git commit -a -m "Type message of your choice here"
+
+Branch is set Git
+--> git branch <Branch Name>
+
+Check Branch
+--> git branch
+
+Switch To Branch
+--> git checkout <Branch Name>
+
+Marge File is Git
+--> git merge <Branch Name>
+
+----------------------------------------------------------------------------------------------------
+
+Git REMOTE to Gitup 
+--> git remote add origin <Paste-Git-URL-Here>
+
+Check URL Gitup
+--> git remote -v
+
+Git UPLOAD File URL
+--> git push origin master
+
